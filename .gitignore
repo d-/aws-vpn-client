@@ -1,5 +1,5 @@
-dev.ovpn
-skope-dev.pem
+*.ovpn
+*.pem
 openvpncompile/
 openvpn-patched
 aws-vpn-wrapper
