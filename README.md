@@ -16,7 +16,10 @@ This version has taken the shell scripts and folds all of that into a single gol
 - [compile-patched-openvpn.sh](compile-patched-openvpn.sh) - bash script to download,patch and compile the openvpn client to use for the golang tool
 
 ## How to use
-
+1. Update openssl
+`sudo apt-get install libssl-dev`
+1. Update lzo
+`sudo apt-get install libssl-dev liblzo2-dev libpam0g-dev`
 1. Build patched openvpn version using `compile-patched-openvpn.sh`
 1. Either save your downloaded aws config as `~/.awsvpn.conf` or place it somewhere nice
 1. Compile the go wrapper `go build`
