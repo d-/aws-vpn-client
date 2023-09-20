@@ -24,4 +24,5 @@ This version has taken the shell scripts and folds all of that into a single gol
 1. Either save your downloaded aws config as `~/.awsvpn.conf` or place it somewhere nice
 1. Compile the go wrapper `go build`
 1. Run the golang tool, use command arg `-config` to point to your conf file if its not saved as `~/.awsvpn.conf`
+   ```./aws-vpn-wrapper -config 'dev.ovpn'```
 1. This should do the rest from here
